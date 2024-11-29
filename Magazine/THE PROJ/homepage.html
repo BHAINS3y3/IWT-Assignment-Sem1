@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Chronicles</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body{
+            background-image:url("3409832.jpg");
+        }
+
+        .gallery-item {
+            transition: transform 0.3s ease-in-out;
+        }
+        
+        .gallery-item:hover {
+            transform: scale(1.05);
+        }
+        
+        .footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            padding: 35px;
+            background: -webkit-linear-gradient(90deg, #6a57cd,#b952c5,#d25fba,#e488a1,#fab687);background: linear-gradient(90deg, #6b57cda7,hsla(25, 83%, 61%, 0.71));
+        }
+        
+
+        
+        
+        .view-button:hover {
+            background-color: #2563EB; 
+        }
+        
+    </style>
+</head>
+<body  class="font-sans bg-gray-100 relative min-h-screen">
+    <header style="background: -webkit-linear-gradient(90deg, #6a57cd,#b952c5,#d25fba,#e488a1,#fab687);background: linear-gradient(90deg, #6b57cda7,hsla(25, 83%, 61%, 0.71)); "class="bg-white shadow-md">
+        <div class="container mx-auto py-4 flex justify-between items-center">
+            <div class="logo">
+                <a href="homepage.html">
+                    <img src="C:\Users\vansh\Desktop\IWT project\Magazine\THE PROJ\main,black noback.png" class="h-10 w-auto" alt="Canvas Chronicles Logo">
+                </a>
+            </div>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="C:\Users\vansh\Desktop\IWT project\Magazine\THE PROJ\sublinks\aboutpage.html" class="text-black-600 hover:text-black-800">About</a></li>
+                    <li><a href="C:\Users\vansh\Desktop\IWT project\Magazine\THE PROJ\sublinks\Links.html" class="text-black-600 hover:text-black-800">Links</a></li>
+                    <li><a href="C:\Users\vansh\Desktop\IWT project\Magazine\THE PROJ\sublinks\Form.html"class="text-black-600 hover:text-black-800">Login/Signup</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto my-8 pb-16">
+        
+        <h1  class="text-3xl font-bold text-center mb-8">Latest Issues</h1>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+            <div class="gallery-item">
+                <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <a href="C:\Users\vansh\Desktop\IWT project\Magazine\THE PROJ\sublinks\mag 1.html">
+                        <img src="C:\Users\vansh\Downloads\meow.png" alt="The Nature Fanatic" class="w-full h-64 object-cover">
+                    </a>
+                    <div class="p-4">
+                        <h2 class="text-lg font-bold mb-2">The Nature Fanatic</h2>
+                        <div class="flex justify-between items-center">
+                            <p class="text-gray-500">View Details</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <a href="C:\Users\vansh\Desktop\IWT project\Magazine\THE PROJ\sublinks\mag 2.html"><img src="C:\Users\vansh\Downloads\meow 2.jpeg" alt="Art Piece 2" class="w-full h-64 object-cover"></a>
+                    <div class="p-4">
+                        <h2 class="text-lg font-bold mb-2">King of Abstracts</h2>
+                        <div class="flex justify-between items-center">
+                            <p class="text-gray-500">View Details</p>
+
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                        <a href="C:\Users\vansh\Desktop\IWT project\Magazine\THE PROJ\mag 3.html"><img src="C:\Users\vansh\Desktop\IWT project\Magazine\THE PROJ\pics\main page music.jpg" alt="Art Piece 3" class="w-full h-64 object-cover"></a>
+                    <div class="p-4">
+                        <h2 class="text-lg font-bold mb-2">To be uploaded shortly</h2>
+                        <div class="flex justify-between items-center">
+                            <p class="text-gray-500">Sorry for the delay</p>
+
+                            </button>
+                        </div>
+
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+    </main>
+    
+
+
+    <footer class="footer bg-black text-white py-4">
+        <center><p style="color: black;">© 2024 Canvas Chronicles. All rights reserved.</p></center>
+    </footer>
+</body>
+</html>

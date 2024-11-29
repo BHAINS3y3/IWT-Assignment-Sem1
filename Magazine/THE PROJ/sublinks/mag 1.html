@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magazine Viewer - Canvas Chronicles</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+    <style>  
+        body{
+            background-image:url("tnfana.jpg");
+        }
+        .magazine-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .magazine-page {
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .magazine-page:hover {
+            transform: scale(1.02);
+        }
+
+        .footer {
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            background: #627e14;
+            background: -webkit-linear-gradient(to right, #03482035,#92c210, #022b4d);
+            background: linear-gradient(to right,#034820b6, #03482079, #022b4d);
+        }
+    </style>
+</head>
+<body  class="font-sans bg-gray-100 relative min-h-screen">
+    <header style="background: #627e14;
+            background: -webkit-linear-gradient(to right, #03482035,#92c210, #022b4d);
+            background: linear-gradient(to right,#034820b6, #03482079, #022b4d);" class="bg-white shadow-md">
+        <div class="container mx-auto py-4 flex justify-between items-center">
+            <div class="logo">
+                <a href="C:\Users\vansh\Desktop\IWT project\Magazine\THE PROJ\homepage.html">
+                    <img src="C:\Users\vansh\Desktop\IWT project\Magazine\THE PROJ\main,black noback.png" alt="Canvas Chronicles Logo" class="h-10 w-auto">
+                </a>
+            </div>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a style="color: white;" href="C:\Users\vansh\Desktop\IWT project\Magazine\THE PROJ\sublinks\aboutpage.html" class="text-white-600 hover:text-white-800">About</a></li>
+                    <li><a style="color: white;" href="C:\Users\vansh\Desktop\IWT project\Magazine\THE PROJ\sublinks\Links.html" class="text-white-600 hover:text-white-800">Links</a></li>
+                    <li><a style="color: white;" href="C:\Users\vansh\Desktop\IWT project\Magazine\THE PROJ\sublinks\Form.html"class="text-white-600 hover:text-white-800">Login/Signup</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="magazine-container pb-16">
+        <div class="magazine-pages">
+            <img src="C:\Users\vansh\Desktop\IWT project\Magazine\THE PROJ\pics\front pho.png"alt="Front page" class="magazine-page">
+            <img src="C:\Users\vansh\Desktop\IWT project\Magazine\THE PROJ\pics\page 1 pho.png" alt="Magazine Page 1" class="magazine-page">
+            <img src="C:\Users\vansh\Desktop\IWT project\Magazine\THE PROJ\pics\page 2 pho.png" alt="Magazine Page 2" class="magazine-page">
+            <img src="C:\Users\vansh\Desktop\IWT project\Magazine\THE PROJ\pics\page 3 pho.png" alt="Magazine Page 3" class="magazine-page">
+        </div>
+    </div>
+    <footer style="padding: 35px;" class="footer bg-black text-white py-4">
+        <center><p style="font-size: 25px;">© 2024 Canvas Chronicles. All rights reserved.</p></center>
+    </footer>
+</body>
+</html> 
